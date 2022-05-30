@@ -1,45 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-20T23:36:40 IST" name="Default suite" finished-at="2022-05-20T23:36:40 IST" duration-ms="41">
+  <suite started-at="2022-05-30T20:31:43 IST" name="TestNG Automation Suite" finished-at="2022-05-30T20:32:02 IST" duration-ms="18282">
     <groups>
+      <group name="Runtest">
+        <method signature="GoogleTest.test1()[pri:2, instance:com.tests.GoogleTest@4466af20]" name="test1" class="com.tests.GoogleTest"/>
+      </group> <!-- Runtest -->
+      <group name="display">
+        <method signature="GoogleTest.imgdisplayed()[pri:0, instance:com.tests.GoogleTest@4466af20]" name="imgdisplayed" class="com.tests.GoogleTest"/>
+        <method signature="GoogleTest.logotest()[pri:0, instance:com.tests.GoogleTest@4466af20]" name="logotest" class="com.tests.GoogleTest"/>
+      </group> <!-- display -->
+      <group name="title">
+        <method signature="GoogleTest.GoogleTitleTest()[pri:0, instance:com.tests.GoogleTest@4466af20]" name="GoogleTitleTest" class="com.tests.GoogleTest"/>
+      </group> <!-- title -->
     </groups>
-    <test started-at="2022-05-20T23:36:40 IST" name="Default test" finished-at="2022-05-20T23:36:40 IST" duration-ms="41">
+    <test started-at="2022-05-30T20:31:43 IST" name="TestNG Feature Test" finished-at="2022-05-30T20:32:02 IST" duration-ms="18282">
+      <class name="com.testng.pack.TestNGFeatures">
+        <test-method signature="loginTest()[pri:0, instance:com.testng.pack.TestNGFeatures@4f6ee6e4]" started-at="2022-05-30T20:31:43 IST" name="loginTest" finished-at="2022-05-30T20:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.testng.pack.TestNGFeatures@4f6ee6e4]" started-at="2022-05-30T20:31:43 IST" name="loginTest" finished-at="2022-05-30T20:31:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.testng.pack.TestNGFeatures@4f6ee6e4]" started-at="2022-05-30T20:31:43 IST" name="loginTest" finished-at="2022-05-30T20:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest()[pri:0, instance:com.testng.pack.TestNGFeatures@4f6ee6e4]" started-at="2022-05-30T20:31:43 IST" name="loginTest" finished-at="2022-05-30T20:31:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="homepageTest()[pri:0, instance:com.testng.pack.TestNGFeatures@4f6ee6e4]" started-at="2022-05-30T20:31:43 IST" name="homepageTest" finished-at="2022-05-30T20:31:43 IST" depends-on-methods="com.testng.pack.TestNGFeatures.loginTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageTest -->
+      </class> <!-- com.testng.pack.TestNGFeatures -->
       <class name="com.testng.pack.TestNGClass">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="beforesuite" finished-at="2022-05-20T23:36:40 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="beforesuite" finished-at="2022-05-30T20:31:43 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="beforeTest" finished-at="2022-05-20T23:36:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="beforeTest" finished-at="2022-05-30T20:31:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="beforeclass" finished-at="2022-05-20T23:36:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="beforeclass" finished-at="2022-05-30T20:31:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="beforeMethod" finished-at="2022-05-20T23:36:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="beforeMethod" finished-at="2022-05-30T20:31:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Test1()[pri:1, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="Test1" finished-at="2022-05-20T23:36:40 IST" duration-ms="8" status="PASS">
+        <test-method signature="Test1()[pri:1, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="Test1" finished-at="2022-05-30T20:31:43 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="afterMethod" finished-at="2022-05-20T23:36:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="afterMethod" finished-at="2022-05-30T20:31:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:40 IST" name="afterclass" finished-at="2022-05-20T23:36:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="beforeMethod" finished-at="2022-05-30T20:31:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Test2()[pri:2, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="Test2" finished-at="2022-05-30T20:31:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="afterMethod" finished-at="2022-05-30T20:31:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:31:43 IST" name="afterclass" finished-at="2022-05-30T20:31:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.testng.pack.TestNGClass@769f71a9]" started-at="2022-05-20T23:36:41 IST" name="AfterSuite" finished-at="2022-05-20T23:36:41 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:32:02 IST" name="aftertest" finished-at="2022-05-30T20:32:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:32:02 IST" name="AfterSuite" finished-at="2022-05-30T20:32:02 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterSuite -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:com.testng.pack.TestNGClass@5af3afd9]" started-at="2022-05-30T20:32:02 IST" name="aftersuit" finished-at="2022-05-30T20:32:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
       </class> <!-- com.testng.pack.TestNGClass -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.tests.GoogleTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:43 IST" name="setup" finished-at="2022-05-30T20:31:48 IST" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="GoogleTitleTest()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:48 IST" name="GoogleTitleTest" finished-at="2022-05-30T20:31:48 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:48 IST" name="teardown" finished-at="2022-05-30T20:31:48 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:48 IST" name="setup" finished-at="2022-05-30T20:31:52 IST" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="imgdisplayed()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:52 IST" name="imgdisplayed" finished-at="2022-05-30T20:31:52 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imgdisplayed -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:52 IST" name="teardown" finished-at="2022-05-30T20:31:53 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:53 IST" name="setup" finished-at="2022-05-30T20:31:57 IST" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logotest()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:57 IST" name="logotest" finished-at="2022-05-30T20:31:57 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logotest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:57 IST" name="teardown" finished-at="2022-05-30T20:31:57 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:31:57 IST" name="setup" finished-at="2022-05-30T20:32:01 IST" duration-ms="3713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:2, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:32:01 IST" name="test1" finished-at="2022-05-30T20:32:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.GoogleTest@4466af20]" started-at="2022-05-30T20:32:01 IST" name="teardown" finished-at="2022-05-30T20:32:02 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tests.GoogleTest -->
+    </test> <!-- TestNG Feature Test -->
+  </suite> <!-- TestNG Automation Suite -->
 </testng-results>

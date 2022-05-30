@@ -1,0 +1,17 @@
+TestNG: Testing Next Generation
+Unit testing framework
+to create Test Cases..Designs test cases in an systematic way...
+Only and Only applicable with JAVA...Junit and TestNG only applicable with JAVA
+Open source,free .avaliable in form of jar files
+Generates good extent report
+provides annotations and priority
+Dataproviders are provided by TestNG..Also called TDD framework>>TestDrivenDevelopment
+
+before and After Suite,Test and Class >>>executed only once...
+pairing will be emerge from..       before method>>Test>>After Method
+
+
+
+
+
+
